@@ -1,0 +1,368 @@
+header {
+    background-color: #D7F5DC;
+}
+
+nav {
+    display: flex;
+    width: 100%;
+}
+
+.logo {
+    margin-left: 1rem;
+}
+
+.brand-name {
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+.brand-first-name {
+    color: black;
+}
+.brand-second-name {
+    color: #FF8345;
+}
+
+.menu {
+    margin-left: auto;
+    margin-right: 1rem;
+    display: flex;
+    align-items: center;
+}
+
+.menu ul {
+    display: flex;
+    justify-content: center;
+}
+
+.menu ul li {
+    list-style: none;
+    margin: 0 2rem;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.menu button {
+    margin: 0 1rem;
+}
+/******************************************************************************************************/
+
+/************** FIRST-SECTION **************************************************************************/
+
+.first-section {
+    background-color: #D7F5DC;
+    height: 90vh;
+}
+
+.first-upper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80%;
+}
+
+.first-left {
+    padding: 0 1rem;
+}
+.first-left .heading {
+    font-size: 2.5rem;
+    text-align: left;
+}
+.first-left .text {
+    font-size: 1.5rem;
+    text-align: left;
+}
+.first-left button {
+    padding: 1rem ;
+    font-size: 1.2rem;
+}
+
+
+.first-right {
+    width: 100%;
+}
+
+.first-right .image-container {
+    text-align: right;
+}
+.first-right .image-container img {
+    width: 90%;
+}
+.first-bottom {
+    height: 15%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5rem;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+/*******************************************************************************************************/
+
+/********* SECOND-SECTION ********************************************************************************************************/
+.second-section {
+    height: 80vh;
+    margin-top: 4rem;
+}
+.what-we-do {
+    height: 20%;
+    width: 50%;
+}
+
+.what-we-do .heading {
+    color: #20B15A;
+    font-weight: bold;
+}
+
+.what-we-do .text {
+    color: black;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.cards-container {
+    height: 70%;
+    display: flex;
+    align-items: center;
+    margin-top: 5rem;
+}
+
+.card {
+    width: 100%;
+    height: 18rem;
+    padding: 2rem 2rem;
+    margin: 0 3rem;
+    border-radius: 50px;
+}
+.card .icon {
+    margin-bottom: 2rem;
+}
+
+.card .icon span {
+    padding: 1rem;
+    font-size: 2rem;
+    border-radius: 10px;
+    background-color: #D7F5DC;
+}
+.card .heading {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+/* .card .text {
+
+} */
+.card .learn-more {
+    margin: 3rem 0;
+}
+.learn-more-button-span {
+    margin-left: 0.5rem;
+}
+
+
+
+.card:hover {
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.card:hover .btn-transparent {
+    background-color: #f6712e;
+    color: #fff;
+    font-weight: normal;
+    letter-spacing: 1px;
+}
+
+/***********************************************************************************************************************/
+
+/************** THIRD SECTION ****************************************************************/
+
+.third-section {
+    margin: 10rem 0;
+}
+
+.third-section-cards-container {
+    display: flex;
+    justify-content: center;
+    background-color: #FAFFFB;
+}
+
+
+.third-section-card {
+    text-align: center;
+    margin: 0 4rem;
+}
+
+.third-section-card .text {
+    font-weight: bold;
+}
+
+.third-section-card .value {
+    font-weight: bold;
+    font-size: 2rem;
+    color: #20B15A;
+}
+
+.third-section-card .first img {
+    width: 80px;
+    height: 80px;
+}
+/*******************************************************************************************************/
+
+/****************** FOURTH SECTION ******************************************************/
+
+.fourth-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5rem 0;
+}
+
+.fourth-section .main {
+    text-align: center;
+    width: 40%;
+}
+
+.fourth-section .main .heading {
+    font-weight: bold;
+    font-size: 2rem;
+}
+.fourth-section .main .text {
+    font-size: 1rem;
+    color: rgb(165, 165, 165);
+}
+
+.field {
+    border: 1.5px solid lightslategrey;
+    border-radius: 50px;
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    padding: 0.3rem 1rem;
+}
+
+.field input {
+    width: 100%;
+    border: none;
+    outline: none;
+}
+
+
+.icon-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem 0;
+}
+
+.icon-container .icon {
+    border-radius: 50px;
+    color: white;
+    font-size: 1.5rem;
+    margin: 0 1rem;
+}
+
+
+
+/*******************************************************************************************/
+
+
+/******************* FOOTER *****************************************************************/
+
+footer {
+    background-color: #00CA72;
+}
+
+footer .container {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5rem;
+}
+
+.web-logo {
+    width: 20%;
+    text-align: center;
+}
+
+.quick-links .heading {
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+.quick-links ul {
+    padding: 0;
+}
+.quick-links ul li {
+    font-size: 1.2rem;
+    list-style: none;
+    margin: 1rem 0;
+}
+
+
+.address .heading {
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+.address .text {
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+
+.copyright {
+    padding-bottom: 1rem;
+}
+.copyright p {
+    font-weight: bold;
+}
+
+
+/********** GLOBAL **************************************************************************************/
+.bg-green-dark {
+    background-color: #20B15A;
+}
+
+.bg-orange-dark {
+    background-color: #FF8345;
+}
+
+.btn {
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    padding: 0.6rem 0.8rem;
+    font-weight: bold;
+}
+
+.btn-green-dark {
+    background-color: #20B15A;
+    color: white;
+    cursor: pointer;
+}
+
+.btn-orange-dark {
+    background-color: #f6712e;
+    color: white;
+    cursor: pointer;
+}
+.btn-transparent {
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.btn-outline-green-dark {
+    color: black;
+    cursor: pointer;
+    border: inset;
+    border: 2px solid #20B15A;
+    background-color: transparent;
+}
+
+.padding-y-my {
+    padding: 0 5rem;
+}
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.h-divider {
+    min-width: 2px;
+    background-color: rgb(227, 227, 227);
+}
